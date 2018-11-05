@@ -15,7 +15,7 @@ class DataOutput(object):
     # 全部页面爬取结束后调用此函数，写入文件
     def output_excel(self):
         # 创建一个excel表格
-        workbook = xlsxwriter.Workbook('ckj' + '.xlsx')
+        workbook = xlsxwriter.Workbook('data' + '.xlsx')
         # 为创建的excel表格添加一个工作表
         worksheet = workbook.add_worksheet()
 
